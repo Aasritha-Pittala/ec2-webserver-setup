@@ -35,7 +35,6 @@ Once the instance was launched, I noted down the public IP address.
 ### 2. Connected to the EC2 Instance
 Using the downloaded key pair, I connected to the EC2 instance from my local terminal using SSH.
 
-```bash
 ssh -i "keyname.pem" ec2-user@<Public_IP>
 
 ---
